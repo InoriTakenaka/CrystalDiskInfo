@@ -5360,8 +5360,9 @@ VOID CAtaSmart::WakeUp(INT physicalDriveId)
 }
 
 BOOL CAtaSmart::GetDiskInfo(INT physicalDriveId, INT scsiPort, INT scsiTargetId,
-	INTERFACE_TYPE interfaceType, COMMAND_TYPE commandType, VENDOR_ID usbVendorId, DWORD productId, INT scsiBus, DWORD siliconImageType, BOOL FlagNvidiaController, BOOL FlagMarvellController, CString pnpDeviceId,
-	BOOL flagNVMe, BOOL flagUsap
+	INTERFACE_TYPE interfaceType, COMMAND_TYPE commandType, VENDOR_ID usbVendorId, 
+	DWORD productId, INT scsiBus, DWORD siliconImageType, BOOL FlagNvidiaController, 
+	BOOL FlagMarvellController, CString pnpDeviceId,BOOL flagNVMe, BOOL flagUsap
 	)
 {
 	DebugPrint(_T("GetDiskInfo"));
